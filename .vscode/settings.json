@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "myconnect",
+            "group": "nft",
+            "database": "${workspaceFolder:galaxy-nft-market}/DB/nft.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

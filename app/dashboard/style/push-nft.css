@@ -1,0 +1,22 @@
+.upload-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #7c3aed;
+    border-radius: 10px;
+    text-align: center;
+}
+.upload-container input[type="file"] {
+    display: none;
+}
+.upload-button {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.upload-button:hover {
+    background-color: #501da8;
+}
